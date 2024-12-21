@@ -45,3 +45,28 @@ After you select the configuration options and the CLI runs through the setup, y
  ```
 
  #### package-loc.json
+
+ ```arch
+
+ npm
+ nvm
+
+ UI lib + tailwind
+
+ best practic not UI lib + tailwind
+
+
+ng material libs:
+    angular material
+    primeng
+    ng-zorro
+ ```
+
+# angular material install:
+https://material.angular.io/guide/getting-started
+```sh
+ng add @angular/material
+```
+
+# tailwind install
+https://tailwindcss.com/docs/installation
