@@ -70,3 +70,57 @@ ng add @angular/material
 
 # tailwind install
 https://tailwindcss.com/docs/installation
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## generating component
+
+```sh
+ng g c path/component_name
+```
+
+## <router-outlet> </router-outlet> 
+
+ozini o'riniga qaysi router aktive bo'lsa shu routni qoyadi.
+
+
+
+## lazy loading
+componentlarni faqatgina kerakli paytda yuklash
+
+
+
+
+
+
+
+
+
