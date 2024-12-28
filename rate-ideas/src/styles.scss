@@ -1,7 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+@font-face {
+    font-family: GilroySemibold;
+    src: url(../public/fonts/gilroy-semibold.ttf);
+}
+
+.primary-button {
+    border: 1px solid #E4E7EC !important;
+    @apply  text-primary py-3 px-6 rounded-lg #{!important};
+}
+  
+
