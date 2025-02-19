@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "outDir": "./dist",
+      "target": "es6",
+      "module": "esnext",
+      "moduleResolution": "node",
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+      "strict": true,
+      "baseUrl": "./",
+      "paths": {
+        "@angular/*": ["node_modules/@angular/*"]
+      }
+    },
+    "exclude": ["node_modules"]
+  }
