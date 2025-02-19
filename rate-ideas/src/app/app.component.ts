@@ -11,3 +11,4 @@ import { MatButtonModule } from '@angular/material/button';
 export class AppComponent {
   title = 'rate-ideas';
 }
+ 
