@@ -6,7 +6,6 @@ import { MatButtonModule } from '@angular/material/button';
   selector: 'app-root',
   imports: [RouterOutlet, MatButtonModule],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
 })
 export class AppComponent {
   title = 'rate-ideas';
