@@ -5,3 +5,8 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.primary-button {
+    border: 1px solid #1d2939 !important;
+    @apply  text-primary py-3 px-6 rounded-xl !important;
+}
