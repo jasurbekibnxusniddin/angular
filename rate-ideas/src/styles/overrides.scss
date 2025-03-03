@@ -1,0 +1,19 @@
+@use '@angular/material' as mat;
+
+// Customize the entire app. Change :root to your selector if you want to scope the styles.
+:root {
+  @include mat.tabs-overrides((
+    active-indicator-color: rgb(0, 0, 0),
+    divider-color: rgb(0, 0, 0),
+    label-text-size: 10px, 
+  ));
+}
+
+.primary-button {
+    border: 1px solid #1d2939 !important;
+    color: #1d2939 !important;
+    padding: 0.75rem 1.5rem !important;
+    border-radius: 0.5rem !important;
+    // @apply  text-primary py-3 px-6 rounded-xl !important;
+}
+
