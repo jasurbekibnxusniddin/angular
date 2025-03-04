@@ -1,5 +1,5 @@
-import { Component, input } from "@angular/core";
-import {MatTabsModule} from '@angular/material/tabs';
+import { Component, input, output } from "@angular/core";
+import {MatTabChangeEvent, MatTabsModule} from '@angular/material/tabs';
 import { TabDataI } from "../../models/frontend/tab";
 
 
@@ -11,4 +11,16 @@ import { TabDataI } from "../../models/frontend/tab";
 
 export class TabComponent {
     tabs = input<TabDataI[]>([]);
+
+    tabsChange = output<TabDataI>();
+
+    onTabChange(tab: MatTabChangeEvent): void { 
+        // console.log(tab);
+        // console.log(this.tabs()[tab.index]);
+        // console.log(this.tabs()[tab.index].label);  
+
+        const selectedTab = this.tabs()[tab.index]
+        
+        this.tabsChange.emit( selectedTab ); 
+    }
 }

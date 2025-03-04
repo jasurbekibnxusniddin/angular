@@ -1,4 +1,4 @@
-<mat-tab-group>
+<mat-tab-group [mat-stretch-tabs]="true" (selectedTabChange)="onTabChange($event)">
     @for (tab of tabs(); track tab) {
       <mat-tab [label]="tab.label"/>
     }
