@@ -6,12 +6,15 @@ module.exports = {
   theme: {
     extend: {
       backgroundColor: {
-        'primary': '#F2F4F7',
-        'secondary': '#ffed4a',
-        'danger': '#e3342f',
+        primary: '#F2F4F7',
+        secondary: '#F7F9FC',
+        success: '#02BF67',
+        'success-50': '#ECFDF3',
       },
       textColor: {
-        'primary': '#1D2939',
+        primary: '#1D2939',
+        secondary: '#101828',
+        info: '#475467',
       },
       borderColor: {
         'primary': '#E4E7EC',
